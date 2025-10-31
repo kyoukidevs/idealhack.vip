@@ -3,6 +3,7 @@ local Players = game:GetService("Players")
 local lplr = Players.LocalPlayer
 local workspace = game:GetService("Workspace")
 local RunService = game:GetService("RunService")
+local Camera = workspace.CurrentCamera
 local container = Instance.new("Folder", game:GetService("CoreGui"))
 
 esp_table = {
