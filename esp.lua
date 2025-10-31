@@ -19,8 +19,8 @@ esp_table = {
     },
     settings = {
         enemy = {
-            enabled = true,
-            box = true,
+            enabled = false,
+            box = false,
             box_fill = false,
             corner_box = false,
             health_bar = false,
