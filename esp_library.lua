@@ -1,8 +1,8 @@
 local esp_table = {}
-local Players = cloneref(game:GetService("Players"))
+local Players = game:GetService("Players")
 local lplr = Players.LocalPlayer
-local workspace = cloneref(game:GetService("Workspace"))
-local RunService = cloneref(game:GetService("RunService"))
+local workspace = game:GetService("Workspace")
+local RunService = game:GetService("RunService")
 local container = Instance.new("Folder", game:GetService("CoreGui"))
 
 esp_table = {
