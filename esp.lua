@@ -447,9 +447,9 @@ local function create_esp(player)
         
         loaded_plrs[player] = nil
     end
-    plr_data.render_connection = RunService.RenderStepped:Connect(MV_OMIT(function()
+    plr_data.render_connection = RunService.RenderStepped:Connect(function()
         plr_data:update()
-    end))
+    end)
 
     loaded_plrs[player] = plr_data
 end
